@@ -52,6 +52,9 @@ Vagrant.configure(2) do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
+  config.vm.synced_folder "z:\\Downloads", "/MyDownloads"
+  config.vm.synced_folder "z:\\Documents", "/MyDocuments"
+  config.vm.synced_folder "f:\\MyWorkspace", "/MyWorkspace"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -112,7 +115,7 @@ Vagrant.configure(2) do |config|
   # SHELL
 
   ps_elev config.vm, 'robocopy vagrant-provvin "C:\Program Files\WindowsPowerShell\Modules\vagrant-provvin" *.ps?1 /MIR'
-  ps_elev config.vm, '("Nuget") | ?{@(Get-PackageProvider $_ -ErrorAction Ignore).Count -eq 0} | %{Install-PackageProvider $_ -Force}'
+  ps_elev config.vm, '("Nuget","Chocolatey") | ?{@(Get-PackageProvider $_ -ErrorAction Ignore).Count -eq 0} | %{Install-PackageProvider $_ -Force}'
   ps_elev config.vm, '("newtonsoft.json") | ?{@(Get-Package $_ -ErrorAction Ignore).Count -eq 0} | %{Install-Package $_ -Force}'
   ps_elev config.vm, "Merge-ConfigurationFiles config\\common.json, config\\user.json | Out-File -Encoding utf8 #{cfg_file}"
   ps_elev config.vm, 'Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression'
@@ -127,6 +130,15 @@ Vagrant.configure(2) do |config|
   ps_nonp config.vm, "Connect-Vpn #{cfg_file} #{key_file} 'Soneta VPN'"
   ps_elev config.vm, "Copy-GitRepositories #{cfg_file} #{key_file}"
 
+  # Vagrantfile custom global provisioning place-holders
+  # STARTS-HERE
+  ps_elev config.vm, '("platyps") | ?{@(Get-Module $_ -ListAvailable).Count -eq 0} | %{Install-Module $_ -Force}'
+  ps_elev config.vm, 'cd \Users\vagrant\MyProjects; cmd /C IF NOT EXIST .editorconfig mklink .editorconfig CodeStyles\EditorConfig\editor.config'
+  ps_elev config.vm, '("meslolg.dz") | ?{@(Get-Package $_ -ErrorAction Ignore).Count -eq 0} | %{Install-Package $_ -Force}'
+  ps_elev config.vm, 'New-Service -Name jenkins-slave -DisplayName Jenkins -Description "Jenkins Slave @vagrant" -StartupType Automatic -BinaryPathName C:\Jenkins-Slave\bin\jenkins-slave.exe | Start-Service'
+  ps_nonp config.vm, 'cd C:\Users\vagrant\MyProjects\omnisharp-roslyn; .\build.ps1 -target=install'
+  # ENDS-HERE
+
   config.vm.define 'vs2017', autostart: false, primary: false do | vs17 |
 
       vs17.vm.box_url = "packer-officeVM/packed/windows-10.1703.json"
@@ -140,9 +152,5 @@ Vagrant.configure(2) do |config|
       ps_nonp vs17.vm, "Install-VisualStudio2017Extensions #{cfg_file}"
 
   end
-
-  # Vagrantfile custom global provisioning place-holders
-  # STARTS-HERE
-  # ENDS-HERE
 
 end
