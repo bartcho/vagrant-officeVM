@@ -1,0 +1,175 @@
+﻿{
+    "download":  {
+                     "zip":  [
+                                 {
+                                     "url":  "http://sebi.one.pl/vagrant-officeVM/pl.zip",
+                                     "destination":  "c:\\Users\\vagrant\\AppData\\Local\\EWSoftware\\Visual Studio Spell Checker"
+                                 },
+                                 {
+                                     "url":  "http://sebi.one.pl/vagrant-officeVM/jenkins-slave.zip",
+                                     "destination":  "c:\\Jenkins-Slave"
+                                 }
+                             ]
+                 },
+    "vscode":  {
+                   "extensions":  [
+                                      {
+                                          "name":  "ms-vscode.PowerShell"
+                                      },
+                                      {
+                                          "name":  "EditorConfig.EditorConfig"
+                                      }
+                                  ]
+               },
+    "vs2017":  {
+                   "disabled":  false,
+                   "components":  [
+                                      {
+                                          "id":  "Microsoft.VisualStudio.Workload.NativeDesktop",
+                                          "disabled":  true
+                                      }
+                                  ],
+                   "extensions":  [
+                                      {
+                                          "publisher":  "NunitDevelopers",
+                                          "name":  "NunitTestAdapter",
+                                          "disabled":  true
+                                      },
+                                      {
+                                          "publisher":  "JaredParMSFT",
+                                          "name":  "VsVim"
+                                      },
+                                      {
+                                          "publisher":  "ZoltanKlinger",
+                                          "name":  "RelativeLineNumbers"
+                                      },
+                                      {
+                                          "publisher":  "VisualStudioProductTeam",
+                                          "name":  "ProductivityPowerPack2017"
+                                      },
+                                      {
+                                          "publisher":  "ErlanR",
+                                          "name":  "ReAttach"
+                                      },
+                                      {
+                                          "publisher":  "EWoodruff",
+                                          "name":  "VisualStudioSpellCheckerVS2017andLater"
+                                      },
+                                      {
+                                          "publisher":  "MikeWard-AnnArbor",
+                                          "name":  "VSColorOutput"
+                                      },
+                                      {
+                                          "publisher":  "MadsKristensen",
+                                          "name":  "FileNesting"
+                                      },
+                                      {
+                                          "publisher":  "VisualStudioProductTeam",
+                                          "name":  "VisualStudio2017ColorThemeEditor"
+                                      }
+                                  ]
+               },
+    "repos":  [
+                  {
+                      "url":  "https://github.com/OmniSharp/omnisharp-roslyn.git"
+                  },
+                  {
+                      "url":  "https://github.com/a4099181/CodeStyles.git",
+                      "secret":  {
+                                     "user-name":  "76492d1116743f0423413b16050a5345MgB8AGIARgBGAG4AZgBIAHYAZQB0AHEAWQBoAGIAawBmAE4ARQBWAC8ATQAyAEEAPQA9AHwAYQBkADAAOABlADIAMgAzADgAOQAzADcAMwAzADEAMAA3AGIAYgA1AGIANwA0ADQAMQA0AGMAMgA2ADYANgA4AA==",
+                                     "user-email":  "76492d1116743f0423413b16050a5345MgB8AC8AMgBmAFcARABxAEYAcwAyAE0AUwBuAGYAWQBzAEYARAB3AEkAdABwAFEAPQA9AHwAMQA3AGQANQAyADIAYgA3ADMANQBiAGEAZABkADcANwA5AGEAYwAxAGMAZAA1ADcAYgA2AGQAYQBjADUANgA4ADgAMAAxAGEAYwA3AGEANQA3AGEAYgA5ADYAZQAxADIAMABhADgAMwA2AGMAYgA2ADQAMgA1ADgANAAwAGQAYQA2ADYAMwBjAGUANABkAGMANwAwADAAMwA3ADMAZQBjAGMAYgA0ADUAMQA5AGQAOQAxAGUANwA3ADgAMwA3ADgA"
+                                 }
+                  },
+                  {
+                      "url":  "http://tfs2.soneta.int:8080/tfs/enova/enova-git/_git/enova.git",
+                      "secret":  {
+                                     "user-name":  "76492d1116743f0423413b16050a5345MgB8AEgAbQA2AFcAeQByAE8AbABEAEMAbwBVAEgAUQBHAGcANQBUAFoAQwBrAHcAPQA9AHwANwA3AGYANQA3AGUAMwA2ADkANABkAGUAZQA2ADMAYwA5AGQAZQA3ADYAMgAwADgAZQA2ADQAMgA0ADMAMwA2ADQANwA4AGYAMQBkAGYAYwAwADEAMAAzADIAZgAxADkAZgBjADEAOQAxADgAYgBjADEAZgBiAGUANABmADMAZQA=",
+                                     "user-email":  "76492d1116743f0423413b16050a5345MgB8AEYAdwBZAEMAdwBzADYAeQBZAEQAZABoAG0AeABaAFAAbQBHAGsAQQB1AEEAPQA9AHwAYQAyAGYAOQBkAGQAMgAwADUAMABlADkAYgA3ADkAMwA1AGUANQA2AGUANQA2ADAAOAAyADUAMQAxADMAMQAyADgANABlADIANwAzADQANgA5ADEAZgA1ADYAYgA3ADIANwBkADMANwBkADQANgBiADUAZQBmADAAMQBkAGIAOQBlADEAMgAyAGYAMgAxADQANQA4AGYAYQA1ADQAYQA4ADcAMABmADMAMwAzAGQANABkAGQAMQA0ADYAOAA4ADgA"
+                                 }
+                  },
+                  {
+                      "url":  "http://tfs2.soneta.int:8080/tfs/enova/enova-git/_git/generator.git",
+                      "secret":  {
+                                     "user-name":  "76492d1116743f0423413b16050a5345MgB8ADUAQgBOADAAaQB0AG8AbgBjAHcAagA3AEwAVQAvAG8ASwB4ACsAMgBFAHcAPQA9AHwAMAA4ADYANQA5ADAAOABiADQAYgAzAGEAMgBmADMAZAA1AGYANQAzADgANwA4ADQAMgBkAGIAOQAxADMAMgBjADQAMQA4AGQAMgAxADkAYwBhADEAOQA4AGQAZQA5ADAAYgBmAGIAZQA3AGMAMQBhADIAMwA4AGYAMgAyADEAYQA=",
+                                     "user-email":  "76492d1116743f0423413b16050a5345MgB8AHoAeQA1AG0AMAAzAHoALwBHAFAAcAAxAGIAMwAwAHQAMgBZAEEAWgBKAGcAPQA9AHwANAA2AGYAOQA1ADkAZgA2ADIAYQAxADEAZgA0ADQAYgA4ADgAYwA3ADgAMQAwAGYAZgBjADIAMgAxADcAZgBjAGIANwAwADEAMwA3ADYAYwBmAGIANQBkAGEAMgBjADYAZQA5AGIAMwA3ADIANABlADUAMQAwADEANgA2ADkAMAA5ADEAYQBiAGMANAA5AGQAOAAxADMAMABkAGUAMwA0AGIAYQBhADYANABkADcAYQAxADgANQBjADUAYwBmAGEA"
+                                 }
+                  }
+              ],
+    "drives":  [
+                   {
+                       "local":  "M:",
+                       "secret":  {
+                                      "remote":  "76492d1116743f0423413b16050a5345MgB8AEEAegB3AEwAYwBpAHIAMABWAHEAeQBUADUAbQBoAG0AZgB5AG8AawBnAEEAPQA9AHwAMwAxAGEAYwBjADIANQA2ADUAZQBlAGUAZQBlAGEAMgA2ADkAMAA2ADQAYQAzAGUAMABlADYANAA3ADQANABkADAAYgAxADYANQBjAGIAOQAyAGQAZgBhADAAZgA5ADMAZAAyAGQAMwAyADIAOAAxAGIAMgAxADYAMQA1ADEAMgAyAGUAOQBmADAAYQBmAGEANgA4ADIANgBjAGEANABlADUAOAAxAGYANAA1AGYANwA1AGEANAA2AGIAOQAxAGIA"
+                                  }
+                   },
+                   {
+                       "local":  "P:",
+                       "secret":  {
+                                      "remote":  "76492d1116743f0423413b16050a5345MgB8AEkATABuAEkAOQBuAHEALwBmAHIAUABqAGUAegA3AFYAWABrAEUAQgBQAFEAPQA9AHwANQA0ADAAZABkAGMAOAAwADUAZAA1ADcAZgAxADMAYgBjADkAYwBkADMANQBlADkAZgAwAGIAYwAxADIAOABiAGQANwBiADEAZABlADIANQBmAGEAOQA4ADEAMAAyADYAMAA0ADcAYwBjAGMAOAAyAGEAZQBhADIAYwA3ADkAYQA3ADYAZQBmADUANAA3AGYAMwBkADEAYgBkADQAZQBmAGMAZQBhAGMAMwBlADAAYwA0AGEAYwA2ADMAOAAwADgA"
+                                  }
+                   },
+                   {
+                       "local":  "O:",
+                       "secret":  {
+                                      "remote":  "76492d1116743f0423413b16050a5345MgB8AGIAMQA0AE0AUgBYAGUAMwAxADMAUgBiAHYAcwBjAEgAZABqAEYAOQArAEEAPQA9AHwAMAA5ADAANAA4AGQAYwAxADgAMwBlAGEAMwBmADEAMQBmADUAOABjADgAZgBjADUAOABjAGIANAA3ADQAZgA3ADIAMABiAGEAMQBkADcAOAA3AGEAZQA4ADMAMwBlAGIAOABkAGEAOQAxADAAZABhADQANwAzADEAZgA2ADEAMgA="
+                                  }
+                   }
+               ],
+    "vault":  [
+                  {
+                      "type":  "domain",
+                      "secret":  {
+                                     "server":  "76492d1116743f0423413b16050a5345MgB8AGUAWABPACsASABZAHYAdgBqAGEAcQBBAFYAZABRAGQAUgAyAGsAOQB6AGcAPQA9AHwAYgBmADMAZgBkAGMAMwAzADUAMwAzAGMAOQBmADEAMwBlADEAMgA4ADIAYwAwADUAMQAxADMANwA2AGUAMwA5AGYAOAA2AGMAZQBmADUAMgBkAGEAOQAzAGEAZABhAGEAYwBiADgAMQBmADMAOAAzADcAOAAwADcAYQA1AGQAZAA=",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8AFgAeQAvAC8AOAAxADIAawAvAFAAUQAxAGQAWABDAC8AUwB4AFUAZgBCAGcAPQA9AHwANwBlAGQAOQAxADUAZABlAGIAOABiADcAYQAzADQAMQAyAGUAZAA0AGQAYQA1ADgAZABiADcANgA0ADEAMgAzAA==",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8ADIAawBmAE8ASwBVAHEAZAArAGMAQwBJAGYAOQB2AEEARABZAFAAZQAvAEEAPQA9AHwAMQBmAGYAMAA2ADIAOAA1ADMANgAxADgAYQAyADUANAA2ADQAMAAxADYAMQAxAGYAZAAyADYAMQA2AGQANABkAA=="
+                                 }
+                  },
+                  {
+                      "secret":  {
+                                     "server":  "76492d1116743f0423413b16050a5345MgB8AEEALwB3AFoAUQBPAEMATgBiAEwAeABnAGMATwA1AEcAdQA4AGcAdQBwAFEAPQA9AHwAMwA5AGIAYQBkAGQANQBiADMANwBlAGIAMwBmADIAZQA3ADAAZgAxADUAZQAxADkAMAA3ADAAZAA0ADMAMQA5AA==",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8AEcAeABOAEYAQwA4AE4AawBCADIATgBEAFUAbgBMAEUAdQBjACsAdwB2AFEAPQA9AHwAYQA0AGIAMQAyAGYANQBjAGMAMwA5ADYANgBmAGMAMAA2ADUAYwAyADIAYQA1AGQAMQAzADYAOABlADQANAA1ADEAZQAwAGYANQAyADcAZQA1ADYAZgA4AGIAMAAzAGQAZQAyADcAMwBmAGEAMAAzADMAYgBjADkAYgBmAGUAMgA2ADYAYgBmADgAYQBkADYAOQA1ADcANAA4ADMAMQBhADQAYQAzADMANAA0ADIAZAA5ADUAYgA2ADIANwAyADMA",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8AHEAOQAwADUASABWAFoAZgBJAGwAbAB1AEkAawA0AFIAcgBQAG8AWQBKAEEAPQA9AHwAYgA3ADMAMwA2ADgANwA4ADkAYQBmAGIANQA4AGQANwBhAGUAMgA2AGIAMQBkADQAZAA5AGUAYwBmADEANQBlADUAMgBlAGUANgA3AGMAOAA3ADAAYQA1AGYAOABiADcAMQAyADMAZgBiAGYANwA1AGMAOQBhAGMAOAA4AGEAZgA="
+                                 }
+                  },
+                  {
+                      "secret":  {
+                                     "server":  "76492d1116743f0423413b16050a5345MgB8AHoAbQBEAHYAeAB0ADEANgBqADEAcwBUADYANwBSADgAaABlAHYAeABGAFEAPQA9AHwAMQAwAGUAZQA1ADYAOABkAGUAYwA3ADIANAAxADkAOABiAGYAOQA3AGQANgBmADQANgAzADIANwBiAGEANwBjAA==",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8AHQAMgBKADIASQBHAGwASwAyAG8AbABLAE8AOQBYADgAQgBLAFgAQgBjAEEAPQA9AHwAMABmADIANwBkAGEANgBlAGEANgAzADQANAA0AGYAZgAwADcAZABkADMAMwA5AGMAOAA5ADIAZQA4ADUAYgBlADkANwA3ADMANwAxADUAZQAxADMAMAAxADkAZABiADAAMQBkAGEAOQA1AGUAYwA3AGUAMQAyADAAZAAyADYANwBiAGMAZAA1AGQAZAA2ADcANAA0ADYANgAyADEANQBmADcAMQBlADQAYgBhADUAZQA2ADIAOAA5AGIAZQA3AGUA",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8AGgAQgBtAFkATwB4AHIAaABCAG8ANQBsADEAbwBrAFMATgBiADMAaQBFAFEAPQA9AHwAMwAxADgANABmADAAZQA2AGEANABlAGMAOQA5AGEAMgA1ADEAYwAzAGMAMwBkAGEAOAAzAGYANgA5AGUAZQAyAGQAOAA5ADUAMgAwAGQANQA4ADcANAA5ADcANgBjADAAOQBmAGIAZQBmADUAMQAwADgAYwBhADEANgBkADkANAA="
+                                 }
+                  },
+                  {
+                      "type":  "generic",
+                      "secret":  {
+                                     "server":  "76492d1116743f0423413b16050a5345MgB8AHIAcABxAFUAbgA2AFEAdQBFAHEAMAB3AEsASwAwAE0AZwA5AE4ASQBMAFEAPQA9AHwAOQBiAGIAYQAxADcAMQAxAGYAOAAyAGUANAAwADAAZQA2ADUAMQBkADcANQBmAGUAMgBkAGIAZgA0AGQANQA4AGIAOABlAGYAZQA4AGEAOQA1AGQAYwBjADQAMwBjADkANAAxAGUAZQAwAGEAMwBjADYAZgA0ADIAMQBlADgAMgBkAGEAMQBiAGYANQAxADgAMgAwAGMAMAAzADQAMgA0ADcANQAzADYAMQBlADQAOAA2AGQANQA1ADYAMwBmADcANwAwAGYAZgA2ADgAZAA5AGIANwAyAGQANABiADMAYwBjADkAMwA3ADMAYgAxADYAZAA4ADEAMgAxADkAZgBhAA==",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8AE8ARgBIAEUAVABVAEMAdgBxAGEAMQBEAGsANQBxAFAAaAB3AHkAcQAxAFEAPQA9AHwAYwA2ADYAYQAyADUANAA4ADgANgBkADEAOQAxADUAMABhAGYAMAA1ADAANwAwAGEAYQBlAGUANgAyADAAOAA0AA==",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8ADAAcQBlAGwAcwA2ADUAWgBUAHEAUQBPAHEARABVAGIANgBZAHEAWgBtAEEAPQA9AHwAZAAxAGUAYgA0ADEAOAA1AGQAMQBlADEANABmAGUAZgBkAGQAOQAwADgANQA4AGEAYwBlAGEAZQBmAGQAMgA1AA=="
+                                 }
+                  },
+                  {
+                      "type":  "generic",
+                      "secret":  {
+                                     "server":  "76492d1116743f0423413b16050a5345MgB8ACsAVQBhAEMAagBjAGQARABkAEkATABnAG4AdAArAEsAcwBKADkAQwBzAFEAPQA9AHwAMwA1ADUAMgA1ADYAYQAyADQAOABiADcANgA1ADgAOAAzADIAMQBhADcAZgBkADAAZQA0AGEAZgA1ADMAZgA4AGIAOAAxADEAZQBjADUAZABhADIANgBhADcAMABhAGIAOAAyADAANgBlADcAYgA3ADAAYwAzAGQAMQBiADEAOAA4ADYANABiADcAZQA2ADQAZQBlAGYAZgAzADQAMwBmAGYAYgA5ADMAYwAyADEANwAyAGMAMgAxADkAYwA2ADkA",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8AE4AcgBPAEkAegBiADgAbwB1AGoAcQBZAEoAaABwAFYAUgA0AFEAVQBRAGcAPQA9AHwAOAAzAGUANwA1AGQANAAwAGIAYwA4ADEAZgA5ADkANQBhADEAYQA2AGIAYQAyADgAMQBmADYANgA4ADkANQBjADIAMQAyAGIAZQBiAGYAMAA3ADgAOAAwAGMAYwA5AGYANgA0ADcAYQAwADQAOQA5AGQAZgAyAGMAZQBmADcANgA=",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8AHAATQBIADcAVwA3ADYAcgBXAGIAVQBTAEwARwByAGUATABJADcAOAAvAHcAPQA9AHwAMgBmAGMAOABiAGUAOQBkADcAZQA0AGYANwA5ADQAMQA1ADEAMgBiADYAYQA1AGIAMQA5ADIAMgBiAGEAOAA0ADMANgA4AGQAMgAxADYAZAA3ADEAMABkADQAYwA4ADkAYwA2AGYAMwBjAGUAOQBlAGEANwBmADgAYQBlAGMAYwA="
+                                 }
+                  },
+                  {
+                      "type":  "generic",
+                      "secret":  {
+                                     "server":  "76492d1116743f0423413b16050a5345MgB8AGUAZgBCAEkAOAA3AE4AMgBDAFcARABKAEsATQBsAG8ATABuAHEAaABNAGcAPQA9AHwAOAA2AGUAZQA5ADcANgAxADAAYgBlADkAMQBiADUAOQAxAGQAYwA4ADIAYwBiAGQAOQBlAGUAMwA0AGEANgA1AGQAMgBlADEAMQAwADkAYQAxAGYAYwAwADAAMABjAGQANgBlADgANAA1AGEAMQA0AGYAZQA4AGUAMABjADYAZgA1AGMAOAA2AGYANQAwAGQAMABmAGIANQA0ADIAZAA5ADMAOABjADIAYQA5ADcAYgBmADUAOAA1AGQAMAAzAGYAZQBkAGIAMQBjADIAMgBjADIANgAxADgAMQBhADEAMQBmAGYAMgA5ADcAZQBjADQAOABhADYAYwA0AGUAOQA3AA==",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8ADcATgBkAHgAUgA3AHEAZwBVAHkAQgBQADQAYwBuAGUAMgBNADEAagBXAFEAPQA9AHwAYwA5AGEAOQAwADgAYwBhAGQANAA2ADUAYgA0AGIANwBkAGMAZABmADYANQA3AGEANgBkAGQANgAxADMANQA4AGEAOQA1AGEANQA2AGEAYwA5ADUAYQA5ADAAOQBkADAAMQA1ADgAOQBjADQANAA1ADMAZgBiAGUANQBkAGIANQBlAGMAMABmADkANwBkADAAMAAxADgAYQBmADgAZgA1AGEAZABiADUANQBjADEAYgBjAGIAZgBlADgAOQA1ADAA",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8ADgAYwBvAHcANwAzADQASQBiADIASQAzAG8AMQBrAGgATwB5AHAATQAxAGcAPQA9AHwAZQBlADUAZQA2AGQANwA3ADAANgBlAGEAMAAxADkAYQAwAGQANAAxADcAZABhAGYAZQBkADIAOQBmADAAYwA0AGMAMABkADAAMgA3AGIANAAwADIAMABmADkANgAxADAAOABmADMAYgA4AGQAZgA1ADcANQBkADcAZQA0ADYAMwA="
+                                 }
+                  },
+                  {
+                      "type":  "dialup",
+                      "secret":  {
+                                     "name":  "76492d1116743f0423413b16050a5345MgB8AEwAdgA3AFkANwBMAFEAeQB4AFMAdwB0ADEAUABCADUAMgA3AFoAYgA0AFEAPQA9AHwAZAA3ADYAZgA2ADUAYgA0ADAANgBhAGYAYQAyADcANwA0AGEAMQA1AGUAMgA4AGQAOAAxAGIAMQAzADkAZQAwADMAOAA1ADkAMgAwAGIAYgBjAGMAOQAxAGIANAA4ADgANwAyADcAYwA1AGQAMgAwAGQANgAwAGUAYgBjAGUAMwA=",
+                                     "domain":  "76492d1116743f0423413b16050a5345MgB8AHYAUQBQAFcAWQA4AGIAUQBmAFcAKwBJAEQAbgBXAEEAOQA1AEUAOQBsAFEAPQA9AHwAYwBlAGYANwBmADkAYgAyAGYAZQBhADMAOAA4AGEANwA0ADUAYwA4AGEAMgA4AGYAZgA5ADAAOQAyADMANAAwAA==",
+                                     "username":  "76492d1116743f0423413b16050a5345MgB8AFYAVwBzAHAAMgBsAHcAVgA5AHkAawBZAG8ARABJAFMASAArADcAZgBCAGcAPQA9AHwANwA2ADMAMgBhAGMANgBkAGQAZgA3AGEANgBjADMANgA2AGIAYQBlADAAYwA3ADgAOQBiADcANAAzADQAYgA4ADIANQA2ADgAZgA3AGYAYQAyAGMAOABjAGMANgBiAGYAZgBjAGMAZABmADcAMQAxADgAMgBhADYAYQA3ADkAMAA=",
+                                     "password":  "76492d1116743f0423413b16050a5345MgB8AG0ASQA5AHoAWgBWAEsATgBhAEEAbABVAFgAcwAyAEQAbgBOAGoAUwBIAEEAPQA9AHwANwBkADAAZgAxAGMANgA4ADEAOQBhADQAZAAwADQAZQAzADYAYwBlADAAMgBlADcAYQBiAGYAZABjADQAOQA4ADMAZgAzADIAZgBhADgAZAAzAGQAYgA3AGIAOQBkADYANgBjAGEAYwBlADAAZgAzAGIAZQAwAGEAZAA5ADUAOAA="
+                                 }
+                  }
+              ]
+}
