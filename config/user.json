@@ -1,0 +1,75 @@
+﻿{
+    "chocolatey": {
+        "packages": [
+            {
+                "id": "meslolg.dz",
+                "disabled": true
+            },
+            {
+                "id": "skype",
+                "disabled": true
+            },
+            {
+                "id": "sourcecodepro",
+                "disabled": true
+            },
+            {
+                "id": "tomighty",
+                "disabled": true
+            },
+            {
+                "id": "unzip"
+            },
+            {
+                "id": "mysql.workbench",
+                "disabled": true
+            }
+        ]
+    },
+    "vscode": {
+        "extensions": [
+            {
+                "name": "vscodevim.vim"
+            }
+        ]
+    },
+    "vs2017": {
+        "components": [],
+        "extensions": [
+            {
+                "publisher": "JaredParMSFT",
+                "name": "VsVim"
+            },
+            {
+                "publisher": "ZoltanKlinger",
+                "name": "RelativeLineNumbers"
+            },
+            {
+                "publisher": "VisualStudioProductTeam",
+                "name": "ProductivityPowerPack2017"
+            },
+            {
+                "publisher": "EWoodruff",
+                "name": "VisualStudioSpellChecker"
+            },
+            {
+                "publisher": "MikeWard-AnnArbor",
+                "name": "VSColorOutput"
+            },
+            {
+                "publisher": "NunitDevelopers",
+                "name": "Nunit3TestAdapter"
+            },
+            {
+                "publisher": "VisualStudioProductTeam",
+                "name": "VisualStudio2015ColorThemeEditor"
+            },
+            {
+                "publisher": "MadsKristensen",
+                "name": "FileNesting"
+            }
+        ]
+    },
+    "drives": [],
+    "vault": []
+}
