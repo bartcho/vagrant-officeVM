@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 12,
+    "editor.lineHeight":14,
+    "editor.cursorStyle": "block",
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left",
+    "vim.useSystemClipboard": true,
+    "editor.cursorBlinking": "blink",
+    "editor.renderWhitespace": "all",
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "vscode-great-icons"
+}
