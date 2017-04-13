@@ -18,9 +18,6 @@
                 "disabled": true
             },
             {
-                "id": "unzip"
-            },
-            {
                 "id": "mysql.workbench",
                 "disabled": true
             }
@@ -68,7 +65,15 @@
                 "publisher": "MadsKristensen",
                 "name": "FileNesting"
             }
-        ]
+        ],
+        "chocolatey": {
+            "packages": [
+                {
+                    "id": "ncrunch-vs2017",
+                    "disabled":true
+                }
+            ]
+        }
     },
     "drives": [],
     "vault": []
