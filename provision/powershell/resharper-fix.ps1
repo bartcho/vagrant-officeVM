@@ -1,0 +1,1 @@
+C:\ProgramData\chocolatey\lib\resharper-platform\JetBrains.ReSharperUltimate.2017.1.1.exe /VsVersion=15.0 /SpecificProductNames=ReSharper /Silent=True 
