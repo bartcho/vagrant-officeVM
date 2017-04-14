@@ -26,4 +26,5 @@ git config --add oh-my-zsh.hide-dirty 1 && \
 git config user.email "bartosz.chodakowski@enova.pl" && \
 git config user.name "Bartosz Chodakowski" && \
 echo "enova:/mnt/c/Users/vagrant/MyProjects/enova" >> ~/.warprc
+echo "df:~/.dotfiles" >> ~/.warprc
 "@
