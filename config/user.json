@@ -27,6 +27,10 @@
         "extensions": [
             {
                 "name": "vscodevim.vim"
+            },
+            { 
+                "name":  "dbankier.vscode-instant-markdown",
+                "disabled":true
             }
         ]
     },
@@ -38,32 +42,48 @@
                 "name": "VsVim"
             },
             {
+                "publisher": "VisualStudioProductTeam",
+                "name": "VisualStudio2017ColorThemeEditor"
+            },
+            {
+                "publisher":  "enovaMSDN",
+                "name":  "SonetaPlatformDeveloper",
+                "disabled":true
+            },
+            {
+                "publisher":  "NunitDevelopers",
+                "name":  "NunitTestAdapter",
+                "disabled":true
+            },
+            {
                 "publisher": "ZoltanKlinger",
-                "name": "RelativeLineNumbers"
+                "name": "RelativeLineNumbers",
+               "disabled":true 
             },
             {
                 "publisher": "VisualStudioProductTeam",
-                "name": "ProductivityPowerPack2017"
+                "name": "ProductivityPowerPack2017",
+               "disabled":true 
             },
             {
                 "publisher": "EWoodruff",
-                "name": "VisualStudioSpellChecker"
+                "name": "VisualStudioSpellChecker",
+               "disabled":true 
             },
             {
                 "publisher": "MikeWard-AnnArbor",
-                "name": "VSColorOutput"
+                "name": "VSColorOutput",
+               "disabled":true 
             },
             {
                 "publisher": "NunitDevelopers",
-                "name": "Nunit3TestAdapter"
-            },
-            {
-                "publisher": "VisualStudioProductTeam",
-                "name": "VisualStudio2015ColorThemeEditor"
+                "name": "Nunit3TestAdapter",
+               "disabled":true 
             },
             {
                 "publisher": "MadsKristensen",
-                "name": "FileNesting"
+                "name": "FileNesting",
+               "disabled":true 
             }
         ],
         "chocolatey": {
